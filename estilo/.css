@@ -1,0 +1,120 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-image: url(../imagens/wallpaper004.jpg);
+  background-repeat: no-repeat;
+  
+}
+header{
+    text-align: center;
+}
+header > h1{
+    background-image: linear-gradient(to bottom, rgb(107, 156, 140), oklch(100% 0.00011 271.152));
+    height: 100px;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    text-align: center;
+    margin-top: 10vh;
+    background-image: url('../imagens/wallpaper005.jpg');
+    height: 391px;
+    max-width: 700px;
+    margin-left: 65vh;
+    padding-top: 100px;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    min-width: 300px;
+    width: 90%;  
+}
+form > p{
+    padding: 10px;
+    font-size: 1.3em;
+    margin-right: 350px;
+    
+    
+}
+form > p > label{
+    margin-right: 0px;
+    
+
+
+}
+form > p > input{
+
+    border-radius: 10px;
+   width: 450px;
+   height: 30px;
+   text-align: center;
+   font-size: 0.7em;
+   
+}
+form > h2{
+position: relative;
+top: -50px;
+font-size: 2em;
+font-variant: small-caps;
+background-image: linear-gradient(to right, rgb(107, 156, 140), rgb(255, 255, 255));
+margin-left: 120px;
+border-radius: 30px;
+margin-right: 120px;
+height: 50px;
+padding-top: 10px;
+
+}
+img{
+    border-radius: 30px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(81, 116, 104);
+}
+
+.email{
+    background-color: rgba(107, 156, 140, 0.39);
+    margin-left: 50px;
+    border-radius: 30px;
+    width: 580px;
+    margin-bottom: 30px;
+    
+    
+}
+.senha{
+    background-color: rgba(107, 156, 140, 0.322);
+    margin-left: 50px;
+    border-radius: 30px;
+    width: 580px;
+    margin-bottom: 30px;
+    
+}
+.entrar{
+    background-color: rgba(107, 156, 140, 0.322);
+    margin-left: 50px;
+    border-radius: 30px;
+    width: 580px;
+    text-decoration: none;
+}
+.entrar:hover{
+    background-color: rgba(22, 129, 85, 0.322);
+    transition: 2s;
+}
+input:hover{
+     background-color: rgba(255, 255, 255, 0.534);
+        transform: translateX(5px);
+        transition-duration: 1s;
+
+}
+footer{
+    text-align: center;
+    margin-top: 171px;
+    background-color: black;
+    color: white;
+}
